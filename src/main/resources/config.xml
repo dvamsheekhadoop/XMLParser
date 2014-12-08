@@ -1,0 +1,14 @@
+<Configuration>
+	<JDBCProperties>
+		<JDBCUrl>jdbc:mysql://localhost:5320/testdb</JDBCUrl>
+		<DriverName>com.driver.MySQLDriver</DriverName>
+		<UserName>test</UserName>
+		<Password>test</Password>
+	</JDBCProperties>
+	<SQLProperties>
+		<FileName>Sample.sql</FileName>
+		<FileLocation>D:/input/</FileLocation>
+	</SQLProperties> 
+	<Sample1>test1</Sample1>
+	<Sample2>test2</Sample2>
+</Configuration>

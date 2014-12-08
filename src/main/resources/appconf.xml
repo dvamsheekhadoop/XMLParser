@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMLConfiguration>
+	<Task>
+		<description>Export kana data from db2</description>
+		<argc>2</argc>
+		<args>
+			<arg>src_start_dt</arg>
+			<arg>src_start_dt_p1</arg>
+		</args>
+		<parameters>
+			<parameter>
+				<name>db</name>
+				<value>h2</value>
+			</parameter>
+			<parameter>
+				<name>u</name>
+				<value>sa</value>
+			</parameter>
+			<parameter>
+				<name>p</name>
+				<value>test</value>
+			</parameter>
+			<parameter>
+				<name>quote</name>
+				<value>csv</value>
+			</parameter>
+			<parameter>
+				<name>script</name>
+				<value>C:\Users\e762383\Destop\script.sql</value>
+			</parameter>
+			<parameter>
+				<name>out</name>
+				<value>C:\Users\e762383\Destop\out.txt</value>
+			</parameter>
+		</parameters>
+	</Task>
+	<Task>
+	</Task>
+</XMLConfiguration>
