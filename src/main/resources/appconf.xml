@@ -4,8 +4,8 @@
 		<description>Export kana data from db2</description>
 		<argc>2</argc>
 		<args>
-			<arg>src_start_dt</arg>
-			<arg>src_start_dt_p1</arg>
+			<arg><name>src_start_dt</name></arg>
+			<arg><name>src_start_dt_p1</name></arg>
 		</args>
 		<parameters>
 			<parameter>
